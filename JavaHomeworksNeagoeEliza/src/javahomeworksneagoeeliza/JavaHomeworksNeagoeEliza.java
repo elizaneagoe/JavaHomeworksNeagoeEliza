@@ -1,13 +1,13 @@
 /*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
+ Displaying a name inputed from keyboard
  */
 package javahomeworksneagoeeliza;
 
+import java.util.Scanner;
+
 /**
  *
- * @author gheorgheaurelpacurar
+ * @author Lizuca
  */
 public class JavaHomeworksNeagoeEliza {
 
@@ -15,7 +15,13 @@ public class JavaHomeworksNeagoeEliza {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+       System.out.println("Introduceti numele si prenumele");
+       Scanner scanner;
+        scanner = new Scanner(System.in);
+       String numeprenume=scanner.nextLine();
+       System.out.println("Numele dumneavoastra este " + numeprenume);
+       
+             
+       
     }
-    
 }
