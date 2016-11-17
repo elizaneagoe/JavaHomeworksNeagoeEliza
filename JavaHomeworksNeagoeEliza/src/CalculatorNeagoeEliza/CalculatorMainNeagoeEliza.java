@@ -1,6 +1,6 @@
 /*
  * Exercise simulating a pocket calculator 
-* for an operation between 2 numbers inputeed from keyboard. 
+* for an operation between 2 numbers inputted from keyboard. 
  */
 package CalculatorNeagoeEliza;
 
