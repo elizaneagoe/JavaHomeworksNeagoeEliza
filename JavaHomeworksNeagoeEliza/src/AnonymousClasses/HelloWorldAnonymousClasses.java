@@ -1,8 +1,5 @@
 /*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+ * */
 package AnonymousClasses;
 
 /**
@@ -32,7 +29,7 @@ System.out.println("Hello " + name);
 } // end of EnglishGreeting local class  
 // create an EnglishGreeting object/instance
 HelloWorld englishGreeting = new EnglishGreeting();
-// create an anonimous class that greets in French language
+// create a local class that greets in French language
 
 class FrenchGreeting implements HelloWorld {
 String name = "tout le monde";
@@ -58,7 +55,7 @@ greetSomeone("mundo");
 public void greetSomeone(String someone) {
 name = someone;
 System.out.println("Hola, " + name);
-} // end of anonymous class
+} // end of local class
 }
 HelloWorld spanishGreeting = new SpanishGreeting();
 
