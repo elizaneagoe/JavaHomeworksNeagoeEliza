@@ -70,7 +70,7 @@ public class CarsFactory {
    for(z = 0;z <= i; z++ ){
        if(delieveredCars[z] != null){
        y++;
-       System.out.println( y + ". | " + delieveredCars[z]);
+       System.out.println( y+ ". | " + delieveredCars[z]);
              
         }
        
